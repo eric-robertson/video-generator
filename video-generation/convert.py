@@ -7,7 +7,7 @@ def create_input():
     with open('input.txt', 'w') as f:
         for im in ims:
             f.write(f"file '{im}'\n")
-            f.write('duration 5\n')
+            f.write('duration 50\n')
 
 def create_video():
     os.system('ffmpeg -f concat -i input.txt -vsync vfr -pix_fmt yuv420p output.mp4')

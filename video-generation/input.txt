@@ -1,0 +1,4 @@
+file 'images/rarely-seen-images-what-common-things-look-like-fb20-png__700.jpg'
+duration 50
+file 'images/1_vUFNgofROTwY_rGd4_7Qsw.jpeg'
+duration 50
