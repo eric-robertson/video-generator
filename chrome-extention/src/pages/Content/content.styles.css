@@ -1,0 +1,28 @@
+.Notifier-Root {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    height: 40px;
+    z-index: 1000000;
+    border-radius: 3px;
+    box-shadow: 3px 3px 20px #888888;
+    background: #f9f9f9;
+    transition: all 0.5s ease-in-out;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Notifier-slide-off {
+    transform: translateX(400px);
+}
+
+.Notifier-slide-on {
+    transform: translateX(0);
+}
+
+.Highlight-Text {
+    border: 1px solid black;
+    background-color: silver;
+}
